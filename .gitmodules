@@ -10,3 +10,6 @@
 [submodule "keyswitch_documentation"]
 	path = keyswitch_documentation
 	url = https://github.com/keyboardio/keyswitch_documentation
+[submodule "Unified-Daughterboard"]
+	path = Unified-Daughterboard
+	url = https://github.com/ai03-2725/Unified-Daughterboard
