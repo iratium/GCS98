@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4P4C
+D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ10
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ22
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+#End Doc Library
