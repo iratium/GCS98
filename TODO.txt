@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------------
+as of 2021-07-25:
+--------------------------------------------------------------------------------------
+GCS98v2
+- find footprint for JST SH 4-pin connectors
+- check to make sure it will work with the aio03-designed USB-C daughter board
+- finalize outline of board to minimize space occupied outside of keycap footprint
+- have someone verify board design for:
+  * daughter board properly filters power rail/provides protection from ESD and other stuff
+  * MCU is properly supplied with power and signal
+  * MCU does actually have an internal oscillator and whether it will be sufficient
+  * whether board has room for rgb to be added
+  * overall design, whether it would function once assembled
+        -> from here can fork off and work on v3 to add RGB
+- start work toward midplate and case design:
+  * manufacture (method and manufacturer)
+  * materials
+  * mounting method (gasket mounting ???)
+  * modularity for loud/quiet versions (foam sheet, o-rings, rubber feet)
+	

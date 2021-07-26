@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 588)
-    (tracks 819)
+    (tracks 822)
     (zones 0)
     (modules 201)
     (nets 165)
@@ -612,7 +612,7 @@
   )
 
   (module Package_QFP:LQFP-48_7x7mm_P0.5mm (layer B.Cu) (tedit 5D9F72AF) (tstamp 60FE68B1)
-    (at 243.1625 377.0675)
+    (at 261.3375 344.0625)
     (descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
     (path /6100CAA2)
@@ -9638,6 +9638,9 @@
   (segment (start 323.9125 335.69375) (end 327.025 335.69375) (width 0.254) (layer B.Cu) (net 97))
   (segment (start 323.85 335.75625) (end 323.9125 335.69375) (width 0.254) (layer B.Cu) (net 97))
   (segment (start 313.53125 335.75625) (end 323.85 335.75625) (width 0.254) (layer B.Cu) (net 97))
+  (segment (start 293.6875 335.75625) (end 293.6875 336.55) (width 0.254) (layer B.Cu) (net 97))
+  (segment (start 293.6875 336.55) (end 291.30625 338.93125) (width 0.254) (layer B.Cu) (net 97))
+  (segment (start 291.30625 338.93125) (end 277.8125 338.93125) (width 0.254) (layer B.Cu) (net 97))
   (segment (start 258.7625 334.9625) (end 258.7625 336.55) (width 0.254) (layer B.Cu) (net 114))
   (segment (start 275.59 318.135) (end 258.7625 334.9625) (width 0.254) (layer B.Cu) (net 114))
   (segment (start 276.38375 237.1725) (end 276.38375 237.49) (width 0.254) (layer F.Cu) (net 115))
