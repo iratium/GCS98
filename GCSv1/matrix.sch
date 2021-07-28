@@ -1,0 +1,1320 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 8050 900  1    50   Input ~ 0
+col17
+Text GLabel 7650 900  1    50   Input ~ 0
+col16
+Text GLabel 7250 900  1    50   Input ~ 0
+col15
+Text GLabel 6850 900  1    50   Input ~ 0
+col14
+Text GLabel 6450 900  1    50   Input ~ 0
+col13
+Text GLabel 6050 900  1    50   Input ~ 0
+col12
+Text GLabel 5650 900  1    50   Input ~ 0
+col11
+Text GLabel 5250 900  1    50   Input ~ 0
+col10
+Text GLabel 4850 900  1    50   Input ~ 0
+col09
+Text GLabel 4450 900  1    50   Input ~ 0
+col08
+Text GLabel 4050 900  1    50   Input ~ 0
+col07
+Text GLabel 3650 900  1    50   Input ~ 0
+col06
+Text GLabel 3250 900  1    50   Input ~ 0
+col05
+Text GLabel 2850 900  1    50   Input ~ 0
+col04
+Text GLabel 2450 900  1    50   Input ~ 0
+col03
+Text GLabel 2050 900  1    50   Input ~ 0
+col02
+Text GLabel 1650 900  1    50   Input ~ 0
+col01
+Text GLabel 1250 900  1    50   Input ~ 0
+col00
+Text GLabel 800  5250 0    50   Input ~ 0
+row5
+Text GLabel 800  4500 0    50   Input ~ 0
+row4
+Text GLabel 800  3750 0    50   Input ~ 0
+row3
+Text GLabel 800  3000 0    50   Input ~ 0
+row2
+Text GLabel 800  2250 0    50   Input ~ 0
+row1
+Text GLabel 800  1500 0    50   Input ~ 0
+row0
+$Comp
+L custom:switch SW?
+U 1 1 6116CA90
+P 1650 1450
+F 0 "SW?" H 1646 1685 50  0000 C CNN
+F 1 "switch" H 1646 1594 50  0000 C CNN
+F 2 "" H 1650 1450 50  0001 C CNN
+F 3 "~" H 1650 1450 50  0001 C CNN
+	1    1650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611769C7
+P 1150 1600
+F 0 "D?" V 1196 1520 50  0000 R CNN
+F 1 "D" V 1105 1520 50  0000 R CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "~" H 1150 1600 50  0001 C CNN
+	1    1150 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 6117E78C
+P 1650 1850
+F 0 "LED?" H 1660 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 1660 2057 50  0001 C CNN
+F 2 "" H 1650 2000 50  0001 C CNN
+F 3 "~" H 1650 2000 50  0001 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6117FB64
+P 2050 1900
+F 0 "#PWR?" H 2050 1750 50  0001 C CNN
+F 1 "+5V" H 2065 2073 50  0000 C CNN
+F 2 "" H 2050 1900 50  0001 C CNN
+F 3 "" H 2050 1900 50  0001 C CNN
+	1    2050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61180C36
+P 1300 1800
+F 0 "#PWR?" H 1300 1550 50  0001 C CNN
+F 1 "GND" H 1305 1627 50  0000 C CNN
+F 2 "" H 1300 1800 50  0001 C CNN
+F 3 "" H 1300 1800 50  0001 C CNN
+	1    1300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1450 2150 1450
+Wire Wire Line
+	2150 1450 2150 1150
+Wire Wire Line
+	1450 1900 1200 1900
+Wire Wire Line
+	1200 1900 1200 1800
+Wire Wire Line
+	1200 1800 1050 1800
+Connection ~ 2150 1450
+Wire Wire Line
+	1450 1450 1150 1450
+Wire Wire Line
+	1150 1750 1150 2050
+Wire Wire Line
+	1150 2050 1050 2050
+Connection ~ 1150 2050
+$Comp
+L custom:switch SW?
+U 1 1 61187019
+P 1650 2400
+F 0 "SW?" H 1646 2635 50  0000 C CNN
+F 1 "switch" H 1646 2544 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "~" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6118701F
+P 1150 2550
+F 0 "D?" V 1196 2470 50  0000 R CNN
+F 1 "D" V 1105 2470 50  0000 R CNN
+F 2 "" H 1150 2550 50  0001 C CNN
+F 3 "~" H 1150 2550 50  0001 C CNN
+	1    1150 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 61187025
+P 1650 2800
+F 0 "LED?" H 1660 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 1660 3007 50  0001 C CNN
+F 2 "" H 1650 2950 50  0001 C CNN
+F 3 "~" H 1650 2950 50  0001 C CNN
+	1    1650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6118702B
+P 2050 2850
+F 0 "#PWR?" H 2050 2700 50  0001 C CNN
+F 1 "+5V" H 2065 3023 50  0000 C CNN
+F 2 "" H 2050 2850 50  0001 C CNN
+F 3 "" H 2050 2850 50  0001 C CNN
+	1    2050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61187031
+P 1300 2750
+F 0 "#PWR?" H 1300 2500 50  0001 C CNN
+F 1 "GND" H 1305 2577 50  0000 C CNN
+F 2 "" H 1300 2750 50  0001 C CNN
+F 3 "" H 1300 2750 50  0001 C CNN
+	1    1300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2400 2150 2400
+Wire Wire Line
+	1450 2850 1200 2850
+Wire Wire Line
+	1200 2850 1200 2750
+Wire Wire Line
+	1200 2750 1050 2750
+Wire Wire Line
+	2150 2400 2150 3050
+Connection ~ 2150 2400
+Wire Wire Line
+	1450 2400 1150 2400
+Wire Wire Line
+	1150 2700 1150 3000
+Wire Wire Line
+	1150 3000 1050 3000
+Connection ~ 1150 3000
+Wire Wire Line
+	2150 1450 2150 2400
+Wire Wire Line
+	1850 1900 2050 1900
+Wire Wire Line
+	1850 2850 2050 2850
+Wire Wire Line
+	1450 2750 1300 2750
+Wire Wire Line
+	1450 1800 1300 1800
+$Comp
+L custom:switch SW?
+U 1 1 6118ED52
+P 2800 1450
+F 0 "SW?" H 2796 1685 50  0000 C CNN
+F 1 "switch" H 2796 1594 50  0000 C CNN
+F 2 "" H 2800 1450 50  0001 C CNN
+F 3 "~" H 2800 1450 50  0001 C CNN
+	1    2800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6118ED58
+P 2300 1600
+F 0 "D?" V 2346 1520 50  0000 R CNN
+F 1 "D" V 2255 1520 50  0000 R CNN
+F 2 "" H 2300 1600 50  0001 C CNN
+F 3 "~" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 6118ED5E
+P 2800 1850
+F 0 "LED?" H 2810 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 2810 2057 50  0001 C CNN
+F 2 "" H 2800 2000 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6118ED64
+P 3200 1900
+F 0 "#PWR?" H 3200 1750 50  0001 C CNN
+F 1 "+5V" H 3215 2073 50  0000 C CNN
+F 2 "" H 3200 1900 50  0001 C CNN
+F 3 "" H 3200 1900 50  0001 C CNN
+	1    3200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6118ED6A
+P 2450 1800
+F 0 "#PWR?" H 2450 1550 50  0001 C CNN
+F 1 "GND" H 2455 1627 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1450 3300 1450
+Wire Wire Line
+	3300 1450 3300 1150
+Wire Wire Line
+	2600 1900 2350 1900
+Wire Wire Line
+	2350 1900 2350 1800
+Connection ~ 3300 1450
+Wire Wire Line
+	2600 1450 2300 1450
+Wire Wire Line
+	2300 1750 2300 2050
+Connection ~ 2300 2050
+$Comp
+L custom:switch SW?
+U 1 1 6118ED7C
+P 2800 2400
+F 0 "SW?" H 2796 2635 50  0000 C CNN
+F 1 "switch" H 2796 2544 50  0000 C CNN
+F 2 "" H 2800 2400 50  0001 C CNN
+F 3 "~" H 2800 2400 50  0001 C CNN
+	1    2800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6118ED82
+P 2300 2550
+F 0 "D?" V 2346 2470 50  0000 R CNN
+F 1 "D" V 2255 2470 50  0000 R CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 6118ED88
+P 2800 2800
+F 0 "LED?" H 2810 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 2810 3007 50  0001 C CNN
+F 2 "" H 2800 2950 50  0001 C CNN
+F 3 "~" H 2800 2950 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6118ED8E
+P 3200 2850
+F 0 "#PWR?" H 3200 2700 50  0001 C CNN
+F 1 "+5V" H 3215 3023 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6118ED94
+P 2450 2750
+F 0 "#PWR?" H 2450 2500 50  0001 C CNN
+F 1 "GND" H 2455 2577 50  0000 C CNN
+F 2 "" H 2450 2750 50  0001 C CNN
+F 3 "" H 2450 2750 50  0001 C CNN
+	1    2450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2400 3300 2400
+Wire Wire Line
+	2600 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 2750
+Wire Wire Line
+	3300 2400 3300 3050
+Connection ~ 3300 2400
+Wire Wire Line
+	2600 2400 2300 2400
+Wire Wire Line
+	2300 2700 2300 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	3300 1450 3300 2400
+Wire Wire Line
+	3000 1900 3200 1900
+Wire Wire Line
+	3000 2850 3200 2850
+Wire Wire Line
+	2600 2750 2450 2750
+Wire Wire Line
+	2600 1800 2450 1800
+Wire Wire Line
+	1850 1800 2350 1800
+Wire Wire Line
+	1150 2050 2300 2050
+Wire Wire Line
+	1850 2750 2350 2750
+Wire Wire Line
+	1150 3000 2300 3000
+$Comp
+L custom:switch SW?
+U 1 1 61197B1C
+P 3950 1450
+F 0 "SW?" H 3946 1685 50  0000 C CNN
+F 1 "switch" H 3946 1594 50  0000 C CNN
+F 2 "" H 3950 1450 50  0001 C CNN
+F 3 "~" H 3950 1450 50  0001 C CNN
+	1    3950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61197B22
+P 3450 1600
+F 0 "D?" V 3496 1520 50  0000 R CNN
+F 1 "D" V 3405 1520 50  0000 R CNN
+F 2 "" H 3450 1600 50  0001 C CNN
+F 3 "~" H 3450 1600 50  0001 C CNN
+	1    3450 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 61197B28
+P 3950 1850
+F 0 "LED?" H 3960 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 3960 2057 50  0001 C CNN
+F 2 "" H 3950 2000 50  0001 C CNN
+F 3 "~" H 3950 2000 50  0001 C CNN
+	1    3950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61197B2E
+P 4350 1900
+F 0 "#PWR?" H 4350 1750 50  0001 C CNN
+F 1 "+5V" H 4365 2073 50  0000 C CNN
+F 2 "" H 4350 1900 50  0001 C CNN
+F 3 "" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61197B34
+P 3600 1800
+F 0 "#PWR?" H 3600 1550 50  0001 C CNN
+F 1 "GND" H 3605 1627 50  0000 C CNN
+F 2 "" H 3600 1800 50  0001 C CNN
+F 3 "" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1450 4450 1450
+Wire Wire Line
+	4450 1450 4450 1150
+Wire Wire Line
+	3750 1900 3500 1900
+Wire Wire Line
+	3500 1900 3500 1800
+Connection ~ 4450 1450
+Wire Wire Line
+	3750 1450 3450 1450
+Wire Wire Line
+	3450 1750 3450 2050
+Connection ~ 3450 2050
+$Comp
+L custom:switch SW?
+U 1 1 61197B44
+P 3950 2400
+F 0 "SW?" H 3946 2635 50  0000 C CNN
+F 1 "switch" H 3946 2544 50  0000 C CNN
+F 2 "" H 3950 2400 50  0001 C CNN
+F 3 "~" H 3950 2400 50  0001 C CNN
+	1    3950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61197B4A
+P 3450 2550
+F 0 "D?" V 3496 2470 50  0000 R CNN
+F 1 "D" V 3405 2470 50  0000 R CNN
+F 2 "" H 3450 2550 50  0001 C CNN
+F 3 "~" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 61197B50
+P 3950 2800
+F 0 "LED?" H 3960 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 3960 3007 50  0001 C CNN
+F 2 "" H 3950 2950 50  0001 C CNN
+F 3 "~" H 3950 2950 50  0001 C CNN
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61197B56
+P 4350 2850
+F 0 "#PWR?" H 4350 2700 50  0001 C CNN
+F 1 "+5V" H 4365 3023 50  0000 C CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61197B5C
+P 3600 2750
+F 0 "#PWR?" H 3600 2500 50  0001 C CNN
+F 1 "GND" H 3605 2577 50  0000 C CNN
+F 2 "" H 3600 2750 50  0001 C CNN
+F 3 "" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2400 4450 2400
+Wire Wire Line
+	3750 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 2750
+Wire Wire Line
+	4450 2400 4450 3050
+Connection ~ 4450 2400
+Wire Wire Line
+	3750 2400 3450 2400
+Wire Wire Line
+	3450 2700 3450 3000
+Connection ~ 3450 3000
+Wire Wire Line
+	4450 1450 4450 2400
+Wire Wire Line
+	4150 1900 4350 1900
+Wire Wire Line
+	4150 2850 4350 2850
+Wire Wire Line
+	3750 2750 3600 2750
+Wire Wire Line
+	3750 1800 3600 1800
+$Comp
+L custom:switch SW?
+U 1 1 61197B71
+P 5100 1450
+F 0 "SW?" H 5096 1685 50  0000 C CNN
+F 1 "switch" H 5096 1594 50  0000 C CNN
+F 2 "" H 5100 1450 50  0001 C CNN
+F 3 "~" H 5100 1450 50  0001 C CNN
+	1    5100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61197B77
+P 4600 1600
+F 0 "D?" V 4646 1520 50  0000 R CNN
+F 1 "D" V 4555 1520 50  0000 R CNN
+F 2 "" H 4600 1600 50  0001 C CNN
+F 3 "~" H 4600 1600 50  0001 C CNN
+	1    4600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 61197B7D
+P 5100 1850
+F 0 "LED?" H 5110 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 5110 2057 50  0001 C CNN
+F 2 "" H 5100 2000 50  0001 C CNN
+F 3 "~" H 5100 2000 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61197B83
+P 5500 1900
+F 0 "#PWR?" H 5500 1750 50  0001 C CNN
+F 1 "+5V" H 5515 2073 50  0000 C CNN
+F 2 "" H 5500 1900 50  0001 C CNN
+F 3 "" H 5500 1900 50  0001 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61197B89
+P 4750 1800
+F 0 "#PWR?" H 4750 1550 50  0001 C CNN
+F 1 "GND" H 4755 1627 50  0000 C CNN
+F 2 "" H 4750 1800 50  0001 C CNN
+F 3 "" H 4750 1800 50  0001 C CNN
+	1    4750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1450 5600 1450
+Wire Wire Line
+	5600 1450 5600 1150
+Wire Wire Line
+	4900 1900 4650 1900
+Wire Wire Line
+	4650 1900 4650 1800
+Connection ~ 5600 1450
+Wire Wire Line
+	4900 1450 4600 1450
+Wire Wire Line
+	4600 1750 4600 2050
+Connection ~ 4600 2050
+$Comp
+L custom:switch SW?
+U 1 1 61197B99
+P 5100 2400
+F 0 "SW?" H 5096 2635 50  0000 C CNN
+F 1 "switch" H 5096 2544 50  0000 C CNN
+F 2 "" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61197B9F
+P 4600 2550
+F 0 "D?" V 4646 2470 50  0000 R CNN
+F 1 "D" V 4555 2470 50  0000 R CNN
+F 2 "" H 4600 2550 50  0001 C CNN
+F 3 "~" H 4600 2550 50  0001 C CNN
+	1    4600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 61197BA5
+P 5100 2800
+F 0 "LED?" H 5110 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 5110 3007 50  0001 C CNN
+F 2 "" H 5100 2950 50  0001 C CNN
+F 3 "~" H 5100 2950 50  0001 C CNN
+	1    5100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61197BAB
+P 5500 2850
+F 0 "#PWR?" H 5500 2700 50  0001 C CNN
+F 1 "+5V" H 5515 3023 50  0000 C CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61197BB1
+P 4750 2750
+F 0 "#PWR?" H 4750 2500 50  0001 C CNN
+F 1 "GND" H 4755 2577 50  0000 C CNN
+F 2 "" H 4750 2750 50  0001 C CNN
+F 3 "" H 4750 2750 50  0001 C CNN
+	1    4750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2400 5600 2400
+Wire Wire Line
+	4900 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 2750
+Wire Wire Line
+	5600 2400 5600 3050
+Connection ~ 5600 2400
+Wire Wire Line
+	4900 2400 4600 2400
+Wire Wire Line
+	4600 2700 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	5600 1450 5600 2400
+Wire Wire Line
+	5300 1900 5500 1900
+Wire Wire Line
+	5300 2850 5500 2850
+Wire Wire Line
+	4900 2750 4750 2750
+Wire Wire Line
+	4900 1800 4750 1800
+Wire Wire Line
+	4150 1800 4650 1800
+Wire Wire Line
+	3450 2050 4600 2050
+Wire Wire Line
+	4150 2750 4650 2750
+Wire Wire Line
+	3450 3000 4600 3000
+Wire Wire Line
+	3000 1800 3500 1800
+Wire Wire Line
+	2300 2050 3450 2050
+Wire Wire Line
+	3000 2750 3500 2750
+Wire Wire Line
+	2300 3000 3450 3000
+$Comp
+L custom:switch SW?
+U 1 1 611C58BE
+P 6250 1450
+F 0 "SW?" H 6246 1685 50  0000 C CNN
+F 1 "switch" H 6246 1594 50  0000 C CNN
+F 2 "" H 6250 1450 50  0001 C CNN
+F 3 "~" H 6250 1450 50  0001 C CNN
+	1    6250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C58C4
+P 5750 1600
+F 0 "D?" V 5796 1520 50  0000 R CNN
+F 1 "D" V 5705 1520 50  0000 R CNN
+F 2 "" H 5750 1600 50  0001 C CNN
+F 3 "~" H 5750 1600 50  0001 C CNN
+	1    5750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C58CA
+P 6250 1850
+F 0 "LED?" H 6260 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 6260 2057 50  0001 C CNN
+F 2 "" H 6250 2000 50  0001 C CNN
+F 3 "~" H 6250 2000 50  0001 C CNN
+	1    6250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C58D0
+P 6650 1900
+F 0 "#PWR?" H 6650 1750 50  0001 C CNN
+F 1 "+5V" H 6665 2073 50  0000 C CNN
+F 2 "" H 6650 1900 50  0001 C CNN
+F 3 "" H 6650 1900 50  0001 C CNN
+	1    6650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C58D6
+P 5900 1800
+F 0 "#PWR?" H 5900 1550 50  0001 C CNN
+F 1 "GND" H 5905 1627 50  0000 C CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "" H 5900 1800 50  0001 C CNN
+	1    5900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1450 6750 1450
+Wire Wire Line
+	6750 1450 6750 1150
+Wire Wire Line
+	6050 1900 5800 1900
+Wire Wire Line
+	5800 1900 5800 1800
+Connection ~ 6750 1450
+Wire Wire Line
+	6050 1450 5750 1450
+Wire Wire Line
+	5750 1750 5750 2050
+Connection ~ 5750 2050
+$Comp
+L custom:switch SW?
+U 1 1 611C58E6
+P 6250 2400
+F 0 "SW?" H 6246 2635 50  0000 C CNN
+F 1 "switch" H 6246 2544 50  0000 C CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "~" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C58EC
+P 5750 2550
+F 0 "D?" V 5796 2470 50  0000 R CNN
+F 1 "D" V 5705 2470 50  0000 R CNN
+F 2 "" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C58F2
+P 6250 2800
+F 0 "LED?" H 6260 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 6260 3007 50  0001 C CNN
+F 2 "" H 6250 2950 50  0001 C CNN
+F 3 "~" H 6250 2950 50  0001 C CNN
+	1    6250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C58F8
+P 6650 2850
+F 0 "#PWR?" H 6650 2700 50  0001 C CNN
+F 1 "+5V" H 6665 3023 50  0000 C CNN
+F 2 "" H 6650 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C58FE
+P 5900 2750
+F 0 "#PWR?" H 5900 2500 50  0001 C CNN
+F 1 "GND" H 5905 2577 50  0000 C CNN
+F 2 "" H 5900 2750 50  0001 C CNN
+F 3 "" H 5900 2750 50  0001 C CNN
+	1    5900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2400 6750 2400
+Wire Wire Line
+	6050 2850 5800 2850
+Wire Wire Line
+	5800 2850 5800 2750
+Wire Wire Line
+	6750 2400 6750 3050
+Connection ~ 6750 2400
+Wire Wire Line
+	6050 2400 5750 2400
+Wire Wire Line
+	5750 2700 5750 3000
+Connection ~ 5750 3000
+Wire Wire Line
+	6750 1450 6750 2400
+Wire Wire Line
+	6450 1900 6650 1900
+Wire Wire Line
+	6450 2850 6650 2850
+Wire Wire Line
+	6050 2750 5900 2750
+Wire Wire Line
+	6050 1800 5900 1800
+$Comp
+L custom:switch SW?
+U 1 1 611C5913
+P 7400 1450
+F 0 "SW?" H 7396 1685 50  0000 C CNN
+F 1 "switch" H 7396 1594 50  0000 C CNN
+F 2 "" H 7400 1450 50  0001 C CNN
+F 3 "~" H 7400 1450 50  0001 C CNN
+	1    7400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C5919
+P 6900 1600
+F 0 "D?" V 6946 1520 50  0000 R CNN
+F 1 "D" V 6855 1520 50  0000 R CNN
+F 2 "" H 6900 1600 50  0001 C CNN
+F 3 "~" H 6900 1600 50  0001 C CNN
+	1    6900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C591F
+P 7400 1850
+F 0 "LED?" H 7410 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 7410 2057 50  0001 C CNN
+F 2 "" H 7400 2000 50  0001 C CNN
+F 3 "~" H 7400 2000 50  0001 C CNN
+	1    7400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C5925
+P 7800 1900
+F 0 "#PWR?" H 7800 1750 50  0001 C CNN
+F 1 "+5V" H 7815 2073 50  0000 C CNN
+F 2 "" H 7800 1900 50  0001 C CNN
+F 3 "" H 7800 1900 50  0001 C CNN
+	1    7800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C592B
+P 7050 1800
+F 0 "#PWR?" H 7050 1550 50  0001 C CNN
+F 1 "GND" H 7055 1627 50  0000 C CNN
+F 2 "" H 7050 1800 50  0001 C CNN
+F 3 "" H 7050 1800 50  0001 C CNN
+	1    7050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1450 7900 1450
+Wire Wire Line
+	7900 1450 7900 1150
+Wire Wire Line
+	7200 1900 6950 1900
+Wire Wire Line
+	6950 1900 6950 1800
+Connection ~ 7900 1450
+Wire Wire Line
+	7200 1450 6900 1450
+Wire Wire Line
+	6900 1750 6900 2050
+Connection ~ 6900 2050
+$Comp
+L custom:switch SW?
+U 1 1 611C5939
+P 7400 2400
+F 0 "SW?" H 7396 2635 50  0000 C CNN
+F 1 "switch" H 7396 2544 50  0000 C CNN
+F 2 "" H 7400 2400 50  0001 C CNN
+F 3 "~" H 7400 2400 50  0001 C CNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C593F
+P 6900 2550
+F 0 "D?" V 6946 2470 50  0000 R CNN
+F 1 "D" V 6855 2470 50  0000 R CNN
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "~" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C5945
+P 7400 2800
+F 0 "LED?" H 7410 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 7410 3007 50  0001 C CNN
+F 2 "" H 7400 2950 50  0001 C CNN
+F 3 "~" H 7400 2950 50  0001 C CNN
+	1    7400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C594B
+P 7800 2850
+F 0 "#PWR?" H 7800 2700 50  0001 C CNN
+F 1 "+5V" H 7815 3023 50  0000 C CNN
+F 2 "" H 7800 2850 50  0001 C CNN
+F 3 "" H 7800 2850 50  0001 C CNN
+	1    7800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C5951
+P 7050 2750
+F 0 "#PWR?" H 7050 2500 50  0001 C CNN
+F 1 "GND" H 7055 2577 50  0000 C CNN
+F 2 "" H 7050 2750 50  0001 C CNN
+F 3 "" H 7050 2750 50  0001 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2400 7900 2400
+Wire Wire Line
+	7200 2850 6950 2850
+Wire Wire Line
+	6950 2850 6950 2750
+Wire Wire Line
+	7900 2400 7900 3050
+Connection ~ 7900 2400
+Wire Wire Line
+	7200 2400 6900 2400
+Wire Wire Line
+	6900 2700 6900 3000
+Connection ~ 6900 3000
+Wire Wire Line
+	7900 1450 7900 2400
+Wire Wire Line
+	7600 1900 7800 1900
+Wire Wire Line
+	7600 2850 7800 2850
+Wire Wire Line
+	7200 2750 7050 2750
+Wire Wire Line
+	7200 1800 7050 1800
+Wire Wire Line
+	6450 1800 6950 1800
+Wire Wire Line
+	5750 2050 6900 2050
+Wire Wire Line
+	6450 2750 6950 2750
+Wire Wire Line
+	5750 3000 6900 3000
+$Comp
+L custom:switch SW?
+U 1 1 611C5968
+P 8550 1450
+F 0 "SW?" H 8546 1685 50  0000 C CNN
+F 1 "switch" H 8546 1594 50  0000 C CNN
+F 2 "" H 8550 1450 50  0001 C CNN
+F 3 "~" H 8550 1450 50  0001 C CNN
+	1    8550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C596E
+P 8050 1600
+F 0 "D?" V 8096 1520 50  0000 R CNN
+F 1 "D" V 8005 1520 50  0000 R CNN
+F 2 "" H 8050 1600 50  0001 C CNN
+F 3 "~" H 8050 1600 50  0001 C CNN
+	1    8050 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C5974
+P 8550 1850
+F 0 "LED?" H 8560 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 8560 2057 50  0001 C CNN
+F 2 "" H 8550 2000 50  0001 C CNN
+F 3 "~" H 8550 2000 50  0001 C CNN
+	1    8550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C597A
+P 8950 1900
+F 0 "#PWR?" H 8950 1750 50  0001 C CNN
+F 1 "+5V" H 8965 2073 50  0000 C CNN
+F 2 "" H 8950 1900 50  0001 C CNN
+F 3 "" H 8950 1900 50  0001 C CNN
+	1    8950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C5980
+P 8200 1800
+F 0 "#PWR?" H 8200 1550 50  0001 C CNN
+F 1 "GND" H 8205 1627 50  0000 C CNN
+F 2 "" H 8200 1800 50  0001 C CNN
+F 3 "" H 8200 1800 50  0001 C CNN
+	1    8200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1450 9050 1450
+Wire Wire Line
+	9050 1450 9050 1150
+Wire Wire Line
+	8350 1900 8100 1900
+Wire Wire Line
+	8100 1900 8100 1800
+Connection ~ 9050 1450
+Wire Wire Line
+	8350 1450 8050 1450
+Wire Wire Line
+	8050 1750 8050 2050
+Connection ~ 8050 2050
+$Comp
+L custom:switch SW?
+U 1 1 611C598E
+P 8550 2400
+F 0 "SW?" H 8546 2635 50  0000 C CNN
+F 1 "switch" H 8546 2544 50  0000 C CNN
+F 2 "" H 8550 2400 50  0001 C CNN
+F 3 "~" H 8550 2400 50  0001 C CNN
+	1    8550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C5994
+P 8050 2550
+F 0 "D?" V 8096 2470 50  0000 R CNN
+F 1 "D" V 8005 2470 50  0000 R CNN
+F 2 "" H 8050 2550 50  0001 C CNN
+F 3 "~" H 8050 2550 50  0001 C CNN
+	1    8050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C599A
+P 8550 2800
+F 0 "LED?" H 8560 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 8560 3007 50  0001 C CNN
+F 2 "" H 8550 2950 50  0001 C CNN
+F 3 "~" H 8550 2950 50  0001 C CNN
+	1    8550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C59A0
+P 8950 2850
+F 0 "#PWR?" H 8950 2700 50  0001 C CNN
+F 1 "+5V" H 8965 3023 50  0000 C CNN
+F 2 "" H 8950 2850 50  0001 C CNN
+F 3 "" H 8950 2850 50  0001 C CNN
+	1    8950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C59A6
+P 8200 2750
+F 0 "#PWR?" H 8200 2500 50  0001 C CNN
+F 1 "GND" H 8205 2577 50  0000 C CNN
+F 2 "" H 8200 2750 50  0001 C CNN
+F 3 "" H 8200 2750 50  0001 C CNN
+	1    8200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2400 9050 2400
+Wire Wire Line
+	8350 2850 8100 2850
+Wire Wire Line
+	8100 2850 8100 2750
+Wire Wire Line
+	9050 2400 9050 3050
+Connection ~ 9050 2400
+Wire Wire Line
+	8350 2400 8050 2400
+Wire Wire Line
+	8050 2700 8050 3000
+Connection ~ 8050 3000
+Wire Wire Line
+	9050 1450 9050 2400
+Wire Wire Line
+	8750 1900 8950 1900
+Wire Wire Line
+	8750 2850 8950 2850
+Wire Wire Line
+	8350 2750 8200 2750
+Wire Wire Line
+	8350 1800 8200 1800
+$Comp
+L custom:switch SW?
+U 1 1 611C59B9
+P 9700 1450
+F 0 "SW?" H 9696 1685 50  0000 C CNN
+F 1 "switch" H 9696 1594 50  0000 C CNN
+F 2 "" H 9700 1450 50  0001 C CNN
+F 3 "~" H 9700 1450 50  0001 C CNN
+	1    9700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C59BF
+P 9200 1600
+F 0 "D?" V 9246 1520 50  0000 R CNN
+F 1 "D" V 9155 1520 50  0000 R CNN
+F 2 "" H 9200 1600 50  0001 C CNN
+F 3 "~" H 9200 1600 50  0001 C CNN
+	1    9200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C59C5
+P 9700 1850
+F 0 "LED?" H 9710 2057 50  0000 C CNN
+F 1 "SK6812mini2" H 9710 2057 50  0001 C CNN
+F 2 "" H 9700 2000 50  0001 C CNN
+F 3 "~" H 9700 2000 50  0001 C CNN
+	1    9700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C59CB
+P 10100 1900
+F 0 "#PWR?" H 10100 1750 50  0001 C CNN
+F 1 "+5V" H 10115 2073 50  0000 C CNN
+F 2 "" H 10100 1900 50  0001 C CNN
+F 3 "" H 10100 1900 50  0001 C CNN
+	1    10100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C59D1
+P 9350 1800
+F 0 "#PWR?" H 9350 1550 50  0001 C CNN
+F 1 "GND" H 9355 1627 50  0000 C CNN
+F 2 "" H 9350 1800 50  0001 C CNN
+F 3 "" H 9350 1800 50  0001 C CNN
+	1    9350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1450 10200 1450
+Wire Wire Line
+	10200 1450 10200 1150
+Wire Wire Line
+	9500 1900 9250 1900
+Wire Wire Line
+	9250 1900 9250 1800
+Wire Wire Line
+	9900 1800 10250 1800
+Connection ~ 10200 1450
+Wire Wire Line
+	9500 1450 9200 1450
+Wire Wire Line
+	9200 1750 9200 2050
+Wire Wire Line
+	9200 2050 10250 2050
+Connection ~ 9200 2050
+$Comp
+L custom:switch SW?
+U 1 1 611C59E1
+P 9700 2400
+F 0 "SW?" H 9696 2635 50  0000 C CNN
+F 1 "switch" H 9696 2544 50  0000 C CNN
+F 2 "" H 9700 2400 50  0001 C CNN
+F 3 "~" H 9700 2400 50  0001 C CNN
+	1    9700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 611C59E7
+P 9200 2550
+F 0 "D?" V 9246 2470 50  0000 R CNN
+F 1 "D" V 9155 2470 50  0000 R CNN
+F 2 "" H 9200 2550 50  0001 C CNN
+F 3 "~" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:SK6812mini2 LED?
+U 1 1 611C59ED
+P 9700 2800
+F 0 "LED?" H 9710 3007 50  0000 C CNN
+F 1 "SK6812mini2" H 9710 3007 50  0001 C CNN
+F 2 "" H 9700 2950 50  0001 C CNN
+F 3 "~" H 9700 2950 50  0001 C CNN
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611C59F3
+P 10100 2850
+F 0 "#PWR?" H 10100 2700 50  0001 C CNN
+F 1 "+5V" H 10115 3023 50  0000 C CNN
+F 2 "" H 10100 2850 50  0001 C CNN
+F 3 "" H 10100 2850 50  0001 C CNN
+	1    10100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611C59F9
+P 9350 2750
+F 0 "#PWR?" H 9350 2500 50  0001 C CNN
+F 1 "GND" H 9355 2577 50  0000 C CNN
+F 2 "" H 9350 2750 50  0001 C CNN
+F 3 "" H 9350 2750 50  0001 C CNN
+	1    9350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2400 10200 2400
+Wire Wire Line
+	9500 2850 9250 2850
+Wire Wire Line
+	9250 2850 9250 2750
+Wire Wire Line
+	9900 2750 10250 2750
+Wire Wire Line
+	10200 2400 10200 3050
+Connection ~ 10200 2400
+Wire Wire Line
+	9500 2400 9200 2400
+Wire Wire Line
+	9200 2700 9200 3000
+Wire Wire Line
+	9200 3000 10250 3000
+Connection ~ 9200 3000
+Wire Wire Line
+	10200 1450 10200 2400
+Wire Wire Line
+	9900 1900 10100 1900
+Wire Wire Line
+	9900 2850 10100 2850
+Wire Wire Line
+	9500 2750 9350 2750
+Wire Wire Line
+	9500 1800 9350 1800
+Wire Wire Line
+	8750 1800 9250 1800
+Wire Wire Line
+	8050 2050 9200 2050
+Wire Wire Line
+	8750 2750 9250 2750
+Wire Wire Line
+	8050 3000 9200 3000
+Wire Wire Line
+	7600 1800 8100 1800
+Wire Wire Line
+	6900 2050 8050 2050
+Wire Wire Line
+	7600 2750 8100 2750
+Wire Wire Line
+	6900 3000 8050 3000
+Wire Wire Line
+	5300 1800 5800 1800
+Wire Wire Line
+	4600 2050 5750 2050
+Wire Wire Line
+	5300 2750 5800 2750
+Wire Wire Line
+	4600 3000 5750 3000
+$EndSCHEMATC

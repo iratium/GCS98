@@ -48,4 +48,22 @@ K 4P4C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP SK6812mini1
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP SK6812mini2
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP switch
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
 #End Doc Library

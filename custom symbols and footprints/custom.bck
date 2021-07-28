@@ -1,6 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 4P4C
+$CMP 4P4C_copy
+D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP JST_SH_4-pin_USBC_Daughter
 D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22
 K 4P4C RJ female connector
 F ~
@@ -12,7 +18,19 @@ K 4P4C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ10_copy
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
 $CMP RJ22
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ22_copy
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
 F ~
@@ -21,6 +39,36 @@ $ENDCMP
 $CMP RJ9
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9_copy
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP SK6812mini1
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP SK6812mini2
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP keyswitch_4pinRGBLED
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP switch
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
 F ~
 $ENDCMP
 #
