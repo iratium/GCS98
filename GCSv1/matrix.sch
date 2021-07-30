@@ -5083,7 +5083,7 @@ L Switch:SW_MEC_5G SW38
 U 1 1 6624B82B
 P 2600 4450
 F 0 "SW38" H 2600 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2600 4644 50  0000 C CNN
+F 1 "Q" H 2600 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2600 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2600 4650 50  0001 C CNN
 	1    2600 4450
@@ -5094,7 +5094,7 @@ L Switch:SW_MEC_5G SW39
 U 1 1 6624B831
 P 3550 4450
 F 0 "SW39" H 3550 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3550 4644 50  0000 C CNN
+F 1 "W" H 3550 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3550 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 4650 50  0001 C CNN
 	1    3550 4450
@@ -5105,7 +5105,7 @@ L Switch:SW_MEC_5G SW40
 U 1 1 6624B837
 P 4500 4450
 F 0 "SW40" H 4500 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4500 4644 50  0000 C CNN
+F 1 "E" H 4500 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4500 4650 50  0001 C CNN
 	1    4500 4450
@@ -5116,7 +5116,7 @@ L Switch:SW_MEC_5G SW41
 U 1 1 6624B83D
 P 5450 4450
 F 0 "SW41" H 5450 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5450 4644 50  0000 C CNN
+F 1 "R" H 5450 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5450 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 4650 50  0001 C CNN
 	1    5450 4450
@@ -5127,7 +5127,7 @@ L Switch:SW_MEC_5G SW42
 U 1 1 6624B843
 P 6400 4450
 F 0 "SW42" H 6400 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6400 4644 50  0000 C CNN
+F 1 "T" H 6400 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6400 4650 50  0001 C CNN
 	1    6400 4450
@@ -5138,7 +5138,7 @@ L Switch:SW_MEC_5G SW43
 U 1 1 6624B849
 P 7350 4450
 F 0 "SW43" H 7350 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 4644 50  0000 C CNN
+F 1 "Y" H 7350 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7350 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 4650 50  0001 C CNN
 	1    7350 4450
@@ -5149,7 +5149,7 @@ L Switch:SW_MEC_5G SW44
 U 1 1 6624B84F
 P 8300 4450
 F 0 "SW44" H 8300 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8300 4644 50  0000 C CNN
+F 1 "U" H 8300 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8300 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 4650 50  0001 C CNN
 	1    8300 4450
@@ -5160,7 +5160,7 @@ L Switch:SW_MEC_5G SW45
 U 1 1 6624B855
 P 9250 4450
 F 0 "SW45" H 9250 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9250 4644 50  0000 C CNN
+F 1 "I" H 9250 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9250 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9250 4650 50  0001 C CNN
 	1    9250 4450
@@ -5171,7 +5171,7 @@ L Switch:SW_MEC_5G SW46
 U 1 1 6624B85B
 P 10200 4450
 F 0 "SW46" H 10200 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10200 4644 50  0000 C CNN
+F 1 "O" H 10200 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10200 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10200 4650 50  0001 C CNN
 	1    10200 4450
@@ -5182,7 +5182,7 @@ L Switch:SW_MEC_5G SW47
 U 1 1 6624B861
 P 11150 4450
 F 0 "SW47" H 11150 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11150 4644 50  0000 C CNN
+F 1 "P" H 11150 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11150 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11150 4650 50  0001 C CNN
 	1    11150 4450
@@ -5193,7 +5193,7 @@ L Switch:SW_MEC_5G SW48
 U 1 1 6624B867
 P 12100 4450
 F 0 "SW48" H 12100 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12100 4644 50  0000 C CNN
+F 1 "LBRKT" H 12100 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12100 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 4650 50  0001 C CNN
 	1    12100 4450
@@ -5204,7 +5204,7 @@ L Switch:SW_MEC_5G SW49
 U 1 1 6624B86D
 P 13050 4450
 F 0 "SW49" H 13050 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 13050 4644 50  0000 C CNN
+F 1 "RBRKT" H 13050 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13050 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 13050 4650 50  0001 C CNN
 	1    13050 4450
@@ -5226,7 +5226,7 @@ L Switch:SW_MEC_5G SW51
 U 1 1 6624B879
 P 14950 4450
 F 0 "SW51" H 14950 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14950 4644 50  0000 C CNN
+F 1 "NUM7" H 14950 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14950 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14950 4650 50  0001 C CNN
 	1    14950 4450
@@ -5237,7 +5237,7 @@ L Switch:SW_MEC_5G SW52
 U 1 1 6624B87F
 P 15900 4450
 F 0 "SW52" H 15900 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15900 4644 50  0000 C CNN
+F 1 "NUM8" H 15900 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15900 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15900 4650 50  0001 C CNN
 	1    15900 4450
@@ -5248,7 +5248,7 @@ L Switch:SW_MEC_5G SW53
 U 1 1 6624B885
 P 16850 4450
 F 0 "SW53" H 16850 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16850 4644 50  0000 C CNN
+F 1 "NUM9" H 16850 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 16850 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16850 4650 50  0001 C CNN
 	1    16850 4450
@@ -5259,7 +5259,7 @@ L Switch:SW_MEC_5G SW54
 U 1 1 6624B88B
 P 17800 4450
 F 0 "SW54" H 17800 4735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17800 4644 50  0000 C CNN
+F 1 "MOP5" H 17800 4644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17800 4650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17800 4650 50  0001 C CNN
 	1    17800 4450
@@ -5281,7 +5281,7 @@ L Switch:SW_MEC_5G SW56
 U 1 1 6632E602
 P 2600 5950
 F 0 "SW56" H 2600 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2600 6144 50  0000 C CNN
+F 1 "A" H 2600 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2600 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2600 6150 50  0001 C CNN
 	1    2600 5950
@@ -5292,7 +5292,7 @@ L Switch:SW_MEC_5G SW57
 U 1 1 6632E608
 P 3550 5950
 F 0 "SW57" H 3550 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3550 6144 50  0000 C CNN
+F 1 "S" H 3550 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3550 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 6150 50  0001 C CNN
 	1    3550 5950
@@ -5303,7 +5303,7 @@ L Switch:SW_MEC_5G SW58
 U 1 1 6632E60E
 P 4500 5950
 F 0 "SW58" H 4500 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4500 6144 50  0000 C CNN
+F 1 "D" H 4500 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4500 6150 50  0001 C CNN
 	1    4500 5950
@@ -5314,7 +5314,7 @@ L Switch:SW_MEC_5G SW59
 U 1 1 6632E614
 P 5450 5950
 F 0 "SW59" H 5450 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5450 6144 50  0000 C CNN
+F 1 "F" H 5450 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5450 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 6150 50  0001 C CNN
 	1    5450 5950
@@ -5325,7 +5325,7 @@ L Switch:SW_MEC_5G SW60
 U 1 1 6632E61A
 P 6400 5950
 F 0 "SW60" H 6400 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6400 6144 50  0000 C CNN
+F 1 "G" H 6400 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6400 6150 50  0001 C CNN
 	1    6400 5950
@@ -5336,7 +5336,7 @@ L Switch:SW_MEC_5G SW61
 U 1 1 6632E620
 P 7350 5950
 F 0 "SW61" H 7350 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 6144 50  0000 C CNN
+F 1 "H" H 7350 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7350 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 6150 50  0001 C CNN
 	1    7350 5950
@@ -5347,7 +5347,7 @@ L Switch:SW_MEC_5G SW62
 U 1 1 6632E626
 P 8300 5950
 F 0 "SW62" H 8300 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8300 6144 50  0000 C CNN
+F 1 "J" H 8300 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8300 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 6150 50  0001 C CNN
 	1    8300 5950
@@ -5358,7 +5358,7 @@ L Switch:SW_MEC_5G SW63
 U 1 1 6632E62C
 P 9250 5950
 F 0 "SW63" H 9250 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9250 6144 50  0000 C CNN
+F 1 "K" H 9250 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9250 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9250 6150 50  0001 C CNN
 	1    9250 5950
@@ -5369,7 +5369,7 @@ L Switch:SW_MEC_5G SW64
 U 1 1 6632E632
 P 10200 5950
 F 0 "SW64" H 10200 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10200 6144 50  0000 C CNN
+F 1 "L" H 10200 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10200 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10200 6150 50  0001 C CNN
 	1    10200 5950
@@ -5380,7 +5380,7 @@ L Switch:SW_MEC_5G SW65
 U 1 1 6632E638
 P 11150 5950
 F 0 "SW65" H 11150 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11150 6144 50  0000 C CNN
+F 1 "SMCLN" H 11150 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11150 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11150 6150 50  0001 C CNN
 	1    11150 5950
@@ -5391,7 +5391,7 @@ L Switch:SW_MEC_5G SW66
 U 1 1 6632E63E
 P 12100 5950
 F 0 "SW66" H 12100 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12100 6144 50  0000 C CNN
+F 1 "APOST" H 12100 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12100 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 6150 50  0001 C CNN
 	1    12100 5950
@@ -5413,7 +5413,7 @@ L Switch:SW_MEC_5G SW68
 U 1 1 6632E650
 P 14950 5950
 F 0 "SW68" H 14950 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14950 6144 50  0000 C CNN
+F 1 "NUM4" H 14950 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14950 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14950 6150 50  0001 C CNN
 	1    14950 5950
@@ -5424,7 +5424,7 @@ L Switch:SW_MEC_5G SW69
 U 1 1 6632E656
 P 15900 5950
 F 0 "SW69" H 15900 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15900 6144 50  0000 C CNN
+F 1 "NUM5" H 15900 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15900 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15900 6150 50  0001 C CNN
 	1    15900 5950
@@ -5435,7 +5435,7 @@ L Switch:SW_MEC_5G SW70
 U 1 1 6632E65C
 P 16850 5950
 F 0 "SW70" H 16850 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16850 6144 50  0000 C CNN
+F 1 "NUM6" H 16850 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 16850 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16850 6150 50  0001 C CNN
 	1    16850 5950
@@ -5446,7 +5446,7 @@ L Switch:SW_MEC_5G SW71
 U 1 1 6632E662
 P 17800 5950
 F 0 "SW71" H 17800 6235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 17800 6144 50  0000 C CNN
+F 1 "MOP6" H 17800 6144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17800 6150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17800 6150 50  0001 C CNN
 	1    17800 5950
@@ -5468,7 +5468,7 @@ L Switch:SW_MEC_5G SW73
 U 1 1 664115F5
 P 2600 7450
 F 0 "SW73" H 2600 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2600 7644 50  0000 C CNN
+F 1 "Z" H 2600 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2600 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2600 7650 50  0001 C CNN
 	1    2600 7450
@@ -5479,7 +5479,7 @@ L Switch:SW_MEC_5G SW74
 U 1 1 664115FB
 P 3550 7450
 F 0 "SW74" H 3550 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 3550 7644 50  0000 C CNN
+F 1 "X" H 3550 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3550 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 3550 7650 50  0001 C CNN
 	1    3550 7450
@@ -5490,7 +5490,7 @@ L Switch:SW_MEC_5G SW75
 U 1 1 66411601
 P 4500 7450
 F 0 "SW75" H 4500 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 4500 7644 50  0000 C CNN
+F 1 "C" H 4500 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4500 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 4500 7650 50  0001 C CNN
 	1    4500 7450
@@ -5501,7 +5501,7 @@ L Switch:SW_MEC_5G SW76
 U 1 1 66411607
 P 5450 7450
 F 0 "SW76" H 5450 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 5450 7644 50  0000 C CNN
+F 1 "V" H 5450 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5450 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 5450 7650 50  0001 C CNN
 	1    5450 7450
@@ -5512,7 +5512,7 @@ L Switch:SW_MEC_5G SW77
 U 1 1 6641160D
 P 6400 7450
 F 0 "SW77" H 6400 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6400 7644 50  0000 C CNN
+F 1 "B" H 6400 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6400 7650 50  0001 C CNN
 	1    6400 7450
@@ -5523,7 +5523,7 @@ L Switch:SW_MEC_5G SW78
 U 1 1 66411613
 P 7350 7450
 F 0 "SW78" H 7350 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 7644 50  0000 C CNN
+F 1 "N" H 7350 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7350 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 7650 50  0001 C CNN
 	1    7350 7450
@@ -5534,7 +5534,7 @@ L Switch:SW_MEC_5G SW79
 U 1 1 66411619
 P 8300 7450
 F 0 "SW79" H 8300 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8300 7644 50  0000 C CNN
+F 1 "M" H 8300 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8300 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 7650 50  0001 C CNN
 	1    8300 7450
@@ -5545,7 +5545,7 @@ L Switch:SW_MEC_5G SW80
 U 1 1 6641161F
 P 9250 7450
 F 0 "SW80" H 9250 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9250 7644 50  0000 C CNN
+F 1 "COMMA" H 9250 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9250 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9250 7650 50  0001 C CNN
 	1    9250 7450
@@ -5556,7 +5556,7 @@ L Switch:SW_MEC_5G SW81
 U 1 1 66411625
 P 10200 7450
 F 0 "SW81" H 10200 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10200 7644 50  0000 C CNN
+F 1 "PRD" H 10200 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10200 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10200 7650 50  0001 C CNN
 	1    10200 7450
@@ -5567,7 +5567,7 @@ L Switch:SW_MEC_5G SW82
 U 1 1 6641162B
 P 11150 7450
 F 0 "SW82" H 11150 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 11150 7644 50  0000 C CNN
+F 1 "SLSH" H 11150 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11150 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 11150 7650 50  0001 C CNN
 	1    11150 7450
@@ -5589,7 +5589,7 @@ L Switch:SW_MEC_5G SW84
 U 1 1 6641163D
 P 14000 7450
 F 0 "SW84" H 14000 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14000 7644 50  0000 C CNN
+F 1 "UP" H 14000 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14000 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14000 7650 50  0001 C CNN
 	1    14000 7450
@@ -5600,7 +5600,7 @@ L Switch:SW_MEC_5G SW85
 U 1 1 66411643
 P 14950 7450
 F 0 "SW85" H 14950 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14950 7644 50  0000 C CNN
+F 1 "NUM1" H 14950 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14950 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14950 7650 50  0001 C CNN
 	1    14950 7450
@@ -5611,7 +5611,7 @@ L Switch:SW_MEC_5G SW86
 U 1 1 66411649
 P 15900 7450
 F 0 "SW86" H 15900 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 15900 7644 50  0000 C CNN
+F 1 "NUM2" H 15900 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15900 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 15900 7650 50  0001 C CNN
 	1    15900 7450
@@ -5622,7 +5622,7 @@ L Switch:SW_MEC_5G SW87
 U 1 1 6641164F
 P 16850 7450
 F 0 "SW87" H 16850 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 16850 7644 50  0000 C CNN
+F 1 "NUM3" H 16850 7644 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 16850 7650 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 16850 7650 50  0001 C CNN
 	1    16850 7450
@@ -5710,7 +5710,7 @@ L Switch:SW_MEC_5G SW95
 U 1 1 664F53DE
 P 12100 8950
 F 0 "SW95" H 12100 9235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 12100 9144 50  0000 C CNN
+F 1 "LEFT" H 12100 9144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12100 9150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 12100 9150 50  0001 C CNN
 	1    12100 8950
@@ -5721,7 +5721,7 @@ L Switch:SW_MEC_5G SW96
 U 1 1 664F53EA
 P 14000 8950
 F 0 "SW96" H 14000 9235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14000 9144 50  0000 C CNN
+F 1 "DOWN" H 14000 9144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14000 9150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14000 9150 50  0001 C CNN
 	1    14000 8950
@@ -5732,7 +5732,7 @@ L Switch:SW_MEC_5G SW97
 U 1 1 664F53F0
 P 14950 8950
 F 0 "SW97" H 14950 9235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 14950 9144 50  0000 C CNN
+F 1 "RIGHT" H 14950 9144 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14950 9150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 14950 9150 50  0001 C CNN
 	1    14950 8950
