@@ -60,9 +60,9 @@ K switch lever
 F ~
 $ENDCMP
 #
-$CMP keyswitch_4pinRGBLED
-D Single Pole Single Throw (SPST) switch, separate symbol
-K switch lever
+$CMP SW_DIP_x01_flipped
+D 1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
 F ~
 $ENDCMP
 #

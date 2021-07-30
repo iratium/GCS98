@@ -60,11 +60,7 @@ row2
 Text GLabel 1150 4100 0    50   Input ~ 0
 row1
 Wire Wire Line
-	1450 1450 1250 1450
-Wire Wire Line
 	2050 1450 2050 1150
-Wire Wire Line
-	1850 1450 2050 1450
 $Comp
 L Device:D D19
 U 1 1 611769C7
@@ -519,11 +515,7 @@ Connection ~ 8850 2600
 Connection ~ 9250 1600
 Connection ~ 9250 2200
 Wire Wire Line
-	10000 1450 9800 1450
-Wire Wire Line
 	10600 1450 10600 1150
-Wire Wire Line
-	10400 1450 10600 1450
 $Comp
 L Device:D D28
 U 1 1 614D459D
@@ -4350,9 +4342,6 @@ Wire Wire Line
 	1150 7900 1150 8250
 Wire Wire Line
 	18200 5950 18200 7450
-NoConn ~ 18100 1900
-Text GLabel 850  9400 0    50   Input ~ 0
-LED
 $Comp
 L Device:R R1
 U 1 1 63C6A88B
@@ -4672,7 +4661,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 7450 2050 8950
 $Comp
-L Switch:SW_MEC_5G SW1
+L custom:SW_DIP_x01_flipped SW1
 U 1 1 6607FEBD
 P 1650 1450
 F 0 "SW1" H 1650 1735 50  0000 C CNN
@@ -4683,7 +4672,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW2
+L custom:SW_DIP_x01_flipped SW2
 U 1 1 6607FEC3
 P 2600 1450
 F 0 "SW2" H 2600 1735 50  0000 C CNN
@@ -4694,7 +4683,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW3
+L custom:SW_DIP_x01_flipped SW3
 U 1 1 6607FEC9
 P 3550 1450
 F 0 "SW3" H 3550 1735 50  0000 C CNN
@@ -4705,7 +4694,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW4
+L custom:SW_DIP_x01_flipped SW4
 U 1 1 6607FECF
 P 4500 1450
 F 0 "SW4" H 4500 1735 50  0000 C CNN
@@ -4716,7 +4705,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW5
+L custom:SW_DIP_x01_flipped SW5
 U 1 1 6607FED5
 P 5450 1450
 F 0 "SW5" H 5450 1735 50  0000 C CNN
@@ -4727,7 +4716,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW6
+L custom:SW_DIP_x01_flipped SW6
 U 1 1 6607FEDB
 P 6400 1450
 F 0 "SW6" H 6400 1735 50  0000 C CNN
@@ -4738,7 +4727,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW7
+L custom:SW_DIP_x01_flipped SW7
 U 1 1 6607FEE1
 P 7350 1450
 F 0 "SW7" H 7350 1735 50  0000 C CNN
@@ -4749,7 +4738,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW8
+L custom:SW_DIP_x01_flipped SW8
 U 1 1 6607FEE7
 P 8300 1450
 F 0 "SW8" H 8300 1735 50  0000 C CNN
@@ -4760,7 +4749,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW9
+L custom:SW_DIP_x01_flipped SW9
 U 1 1 6607FEED
 P 9250 1450
 F 0 "SW9" H 9250 1735 50  0000 C CNN
@@ -4771,7 +4760,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW10
+L custom:SW_DIP_x01_flipped SW10
 U 1 1 6607FEF3
 P 10200 1450
 F 0 "SW10" H 10200 1735 50  0000 C CNN
@@ -4782,7 +4771,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW11
+L custom:SW_DIP_x01_flipped SW11
 U 1 1 6607FEF9
 P 11150 1450
 F 0 "SW11" H 11150 1735 50  0000 C CNN
@@ -4793,7 +4782,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW12
+L custom:SW_DIP_x01_flipped SW12
 U 1 1 6607FEFF
 P 12100 1450
 F 0 "SW12" H 12100 1735 50  0000 C CNN
@@ -4804,7 +4793,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW13
+L custom:SW_DIP_x01_flipped SW13
 U 1 1 6607FF05
 P 13050 1450
 F 0 "SW13" H 13050 1735 50  0000 C CNN
@@ -4815,7 +4804,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW14
+L custom:SW_DIP_x01_flipped SW14
 U 1 1 6607FF0B
 P 14000 1450
 F 0 "SW14" H 14000 1735 50  0000 C CNN
@@ -4826,7 +4815,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW15
+L custom:SW_DIP_x01_flipped SW15
 U 1 1 6607FF11
 P 14950 1450
 F 0 "SW15" H 14950 1735 50  0000 C CNN
@@ -4837,7 +4826,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW16
+L custom:SW_DIP_x01_flipped SW16
 U 1 1 6607FF17
 P 15900 1450
 F 0 "SW16" H 15900 1735 50  0000 C CNN
@@ -4848,7 +4837,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW17
+L custom:SW_DIP_x01_flipped SW17
 U 1 1 6607FF1D
 P 16850 1450
 F 0 "SW17" H 16850 1735 50  0000 C CNN
@@ -4859,7 +4848,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW18
+L custom:SW_DIP_x01_flipped SW18
 U 1 1 6607FF23
 P 17800 1450
 F 0 "SW18" H 17800 1735 50  0000 C CNN
@@ -4870,7 +4859,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW19
+L custom:SW_DIP_x01_flipped SW19
 U 1 1 66167826
 P 1650 2950
 F 0 "SW19" H 1650 3235 50  0000 C CNN
@@ -4881,7 +4870,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW20
+L custom:SW_DIP_x01_flipped SW20
 U 1 1 6616782C
 P 2600 2950
 F 0 "SW20" H 2600 3235 50  0000 C CNN
@@ -4892,7 +4881,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW21
+L custom:SW_DIP_x01_flipped SW21
 U 1 1 66167832
 P 3550 2950
 F 0 "SW21" H 3550 3235 50  0000 C CNN
@@ -4903,7 +4892,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW22
+L custom:SW_DIP_x01_flipped SW22
 U 1 1 66167838
 P 4500 2950
 F 0 "SW22" H 4500 3235 50  0000 C CNN
@@ -4914,7 +4903,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW23
+L custom:SW_DIP_x01_flipped SW23
 U 1 1 6616783E
 P 5450 2950
 F 0 "SW23" H 5450 3235 50  0000 C CNN
@@ -4925,7 +4914,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW24
+L custom:SW_DIP_x01_flipped SW24
 U 1 1 66167844
 P 6400 2950
 F 0 "SW24" H 6400 3235 50  0000 C CNN
@@ -4936,7 +4925,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW25
+L custom:SW_DIP_x01_flipped SW25
 U 1 1 6616784A
 P 7350 2950
 F 0 "SW25" H 7350 3235 50  0000 C CNN
@@ -4947,7 +4936,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW26
+L custom:SW_DIP_x01_flipped SW26
 U 1 1 66167850
 P 8300 2950
 F 0 "SW26" H 8300 3235 50  0000 C CNN
@@ -4958,7 +4947,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW27
+L custom:SW_DIP_x01_flipped SW27
 U 1 1 66167856
 P 9250 2950
 F 0 "SW27" H 9250 3235 50  0000 C CNN
@@ -4969,7 +4958,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW28
+L custom:SW_DIP_x01_flipped SW28
 U 1 1 6616785C
 P 10200 2950
 F 0 "SW28" H 10200 3235 50  0000 C CNN
@@ -4980,7 +4969,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW29
+L custom:SW_DIP_x01_flipped SW29
 U 1 1 66167862
 P 11150 2950
 F 0 "SW29" H 11150 3235 50  0000 C CNN
@@ -4991,7 +4980,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW30
+L custom:SW_DIP_x01_flipped SW30
 U 1 1 66167868
 P 12100 2950
 F 0 "SW30" H 12100 3235 50  0000 C CNN
@@ -5002,7 +4991,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW31
+L custom:SW_DIP_x01_flipped SW31
 U 1 1 6616786E
 P 13050 2950
 F 0 "SW31" H 13050 3235 50  0000 C CNN
@@ -5013,7 +5002,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW32
+L custom:SW_DIP_x01_flipped SW32
 U 1 1 66167874
 P 14000 2950
 F 0 "SW32" H 14000 3235 50  0000 C CNN
@@ -5024,7 +5013,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW33
+L custom:SW_DIP_x01_flipped SW33
 U 1 1 6616787A
 P 14950 2950
 F 0 "SW33" H 14950 3235 50  0000 C CNN
@@ -5035,7 +5024,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW34
+L custom:SW_DIP_x01_flipped SW34
 U 1 1 66167880
 P 15900 2950
 F 0 "SW34" H 15900 3235 50  0000 C CNN
@@ -5046,7 +5035,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW35
+L custom:SW_DIP_x01_flipped SW35
 U 1 1 66167886
 P 16850 2950
 F 0 "SW35" H 16850 3235 50  0000 C CNN
@@ -5057,7 +5046,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW36
+L custom:SW_DIP_x01_flipped SW36
 U 1 1 6616788C
 P 17800 2950
 F 0 "SW36" H 17800 3235 50  0000 C CNN
@@ -5068,7 +5057,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW37
+L custom:SW_DIP_x01_flipped SW37
 U 1 1 6624B825
 P 1650 4450
 F 0 "SW37" H 1650 4735 50  0000 C CNN
@@ -5079,7 +5068,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW38
+L custom:SW_DIP_x01_flipped SW38
 U 1 1 6624B82B
 P 2600 4450
 F 0 "SW38" H 2600 4735 50  0000 C CNN
@@ -5090,7 +5079,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW39
+L custom:SW_DIP_x01_flipped SW39
 U 1 1 6624B831
 P 3550 4450
 F 0 "SW39" H 3550 4735 50  0000 C CNN
@@ -5101,7 +5090,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW40
+L custom:SW_DIP_x01_flipped SW40
 U 1 1 6624B837
 P 4500 4450
 F 0 "SW40" H 4500 4735 50  0000 C CNN
@@ -5112,7 +5101,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW41
+L custom:SW_DIP_x01_flipped SW41
 U 1 1 6624B83D
 P 5450 4450
 F 0 "SW41" H 5450 4735 50  0000 C CNN
@@ -5123,7 +5112,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW42
+L custom:SW_DIP_x01_flipped SW42
 U 1 1 6624B843
 P 6400 4450
 F 0 "SW42" H 6400 4735 50  0000 C CNN
@@ -5134,7 +5123,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW43
+L custom:SW_DIP_x01_flipped SW43
 U 1 1 6624B849
 P 7350 4450
 F 0 "SW43" H 7350 4735 50  0000 C CNN
@@ -5145,7 +5134,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW44
+L custom:SW_DIP_x01_flipped SW44
 U 1 1 6624B84F
 P 8300 4450
 F 0 "SW44" H 8300 4735 50  0000 C CNN
@@ -5156,7 +5145,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW45
+L custom:SW_DIP_x01_flipped SW45
 U 1 1 6624B855
 P 9250 4450
 F 0 "SW45" H 9250 4735 50  0000 C CNN
@@ -5167,7 +5156,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW46
+L custom:SW_DIP_x01_flipped SW46
 U 1 1 6624B85B
 P 10200 4450
 F 0 "SW46" H 10200 4735 50  0000 C CNN
@@ -5178,7 +5167,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW47
+L custom:SW_DIP_x01_flipped SW47
 U 1 1 6624B861
 P 11150 4450
 F 0 "SW47" H 11150 4735 50  0000 C CNN
@@ -5189,7 +5178,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW48
+L custom:SW_DIP_x01_flipped SW48
 U 1 1 6624B867
 P 12100 4450
 F 0 "SW48" H 12100 4735 50  0000 C CNN
@@ -5200,7 +5189,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW49
+L custom:SW_DIP_x01_flipped SW49
 U 1 1 6624B86D
 P 13050 4450
 F 0 "SW49" H 13050 4735 50  0000 C CNN
@@ -5211,7 +5200,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW50
+L custom:SW_DIP_x01_flipped SW50
 U 1 1 6624B873
 P 14000 4450
 F 0 "SW50" H 14000 4735 50  0000 C CNN
@@ -5222,7 +5211,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW51
+L custom:SW_DIP_x01_flipped SW51
 U 1 1 6624B879
 P 14950 4450
 F 0 "SW51" H 14950 4735 50  0000 C CNN
@@ -5233,7 +5222,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW52
+L custom:SW_DIP_x01_flipped SW52
 U 1 1 6624B87F
 P 15900 4450
 F 0 "SW52" H 15900 4735 50  0000 C CNN
@@ -5244,7 +5233,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW53
+L custom:SW_DIP_x01_flipped SW53
 U 1 1 6624B885
 P 16850 4450
 F 0 "SW53" H 16850 4735 50  0000 C CNN
@@ -5255,7 +5244,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW54
+L custom:SW_DIP_x01_flipped SW54
 U 1 1 6624B88B
 P 17800 4450
 F 0 "SW54" H 17800 4735 50  0000 C CNN
@@ -5266,7 +5255,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW55
+L custom:SW_DIP_x01_flipped SW55
 U 1 1 6632E5FC
 P 1650 5950
 F 0 "SW55" H 1650 6235 50  0000 C CNN
@@ -5277,7 +5266,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW56
+L custom:SW_DIP_x01_flipped SW56
 U 1 1 6632E602
 P 2600 5950
 F 0 "SW56" H 2600 6235 50  0000 C CNN
@@ -5288,7 +5277,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW57
+L custom:SW_DIP_x01_flipped SW57
 U 1 1 6632E608
 P 3550 5950
 F 0 "SW57" H 3550 6235 50  0000 C CNN
@@ -5299,7 +5288,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW58
+L custom:SW_DIP_x01_flipped SW58
 U 1 1 6632E60E
 P 4500 5950
 F 0 "SW58" H 4500 6235 50  0000 C CNN
@@ -5310,7 +5299,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW59
+L custom:SW_DIP_x01_flipped SW59
 U 1 1 6632E614
 P 5450 5950
 F 0 "SW59" H 5450 6235 50  0000 C CNN
@@ -5321,7 +5310,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW60
+L custom:SW_DIP_x01_flipped SW60
 U 1 1 6632E61A
 P 6400 5950
 F 0 "SW60" H 6400 6235 50  0000 C CNN
@@ -5332,7 +5321,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW61
+L custom:SW_DIP_x01_flipped SW61
 U 1 1 6632E620
 P 7350 5950
 F 0 "SW61" H 7350 6235 50  0000 C CNN
@@ -5343,7 +5332,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW62
+L custom:SW_DIP_x01_flipped SW62
 U 1 1 6632E626
 P 8300 5950
 F 0 "SW62" H 8300 6235 50  0000 C CNN
@@ -5354,7 +5343,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW63
+L custom:SW_DIP_x01_flipped SW63
 U 1 1 6632E62C
 P 9250 5950
 F 0 "SW63" H 9250 6235 50  0000 C CNN
@@ -5365,7 +5354,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW64
+L custom:SW_DIP_x01_flipped SW64
 U 1 1 6632E632
 P 10200 5950
 F 0 "SW64" H 10200 6235 50  0000 C CNN
@@ -5376,7 +5365,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW65
+L custom:SW_DIP_x01_flipped SW65
 U 1 1 6632E638
 P 11150 5950
 F 0 "SW65" H 11150 6235 50  0000 C CNN
@@ -5387,7 +5376,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW66
+L custom:SW_DIP_x01_flipped SW66
 U 1 1 6632E63E
 P 12100 5950
 F 0 "SW66" H 12100 6235 50  0000 C CNN
@@ -5398,7 +5387,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW67
+L custom:SW_DIP_x01_flipped SW67
 U 1 1 6632E64A
 P 14000 5950
 F 0 "SW67" H 14000 6235 50  0000 C CNN
@@ -5409,7 +5398,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW68
+L custom:SW_DIP_x01_flipped SW68
 U 1 1 6632E650
 P 14950 5950
 F 0 "SW68" H 14950 6235 50  0000 C CNN
@@ -5420,7 +5409,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW69
+L custom:SW_DIP_x01_flipped SW69
 U 1 1 6632E656
 P 15900 5950
 F 0 "SW69" H 15900 6235 50  0000 C CNN
@@ -5431,7 +5420,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW70
+L custom:SW_DIP_x01_flipped SW70
 U 1 1 6632E65C
 P 16850 5950
 F 0 "SW70" H 16850 6235 50  0000 C CNN
@@ -5442,7 +5431,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW71
+L custom:SW_DIP_x01_flipped SW71
 U 1 1 6632E662
 P 17800 5950
 F 0 "SW71" H 17800 6235 50  0000 C CNN
@@ -5453,7 +5442,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW72
+L custom:SW_DIP_x01_flipped SW72
 U 1 1 664115EF
 P 1650 7450
 F 0 "SW72" H 1650 7735 50  0000 C CNN
@@ -5464,7 +5453,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW73
+L custom:SW_DIP_x01_flipped SW73
 U 1 1 664115F5
 P 2600 7450
 F 0 "SW73" H 2600 7735 50  0000 C CNN
@@ -5475,7 +5464,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW74
+L custom:SW_DIP_x01_flipped SW74
 U 1 1 664115FB
 P 3550 7450
 F 0 "SW74" H 3550 7735 50  0000 C CNN
@@ -5486,7 +5475,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW75
+L custom:SW_DIP_x01_flipped SW75
 U 1 1 66411601
 P 4500 7450
 F 0 "SW75" H 4500 7735 50  0000 C CNN
@@ -5497,7 +5486,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW76
+L custom:SW_DIP_x01_flipped SW76
 U 1 1 66411607
 P 5450 7450
 F 0 "SW76" H 5450 7735 50  0000 C CNN
@@ -5508,7 +5497,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW77
+L custom:SW_DIP_x01_flipped SW77
 U 1 1 6641160D
 P 6400 7450
 F 0 "SW77" H 6400 7735 50  0000 C CNN
@@ -5519,7 +5508,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW78
+L custom:SW_DIP_x01_flipped SW78
 U 1 1 66411613
 P 7350 7450
 F 0 "SW78" H 7350 7735 50  0000 C CNN
@@ -5530,7 +5519,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW79
+L custom:SW_DIP_x01_flipped SW79
 U 1 1 66411619
 P 8300 7450
 F 0 "SW79" H 8300 7735 50  0000 C CNN
@@ -5541,7 +5530,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW80
+L custom:SW_DIP_x01_flipped SW80
 U 1 1 6641161F
 P 9250 7450
 F 0 "SW80" H 9250 7735 50  0000 C CNN
@@ -5552,7 +5541,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW81
+L custom:SW_DIP_x01_flipped SW81
 U 1 1 66411625
 P 10200 7450
 F 0 "SW81" H 10200 7735 50  0000 C CNN
@@ -5563,7 +5552,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW82
+L custom:SW_DIP_x01_flipped SW82
 U 1 1 6641162B
 P 11150 7450
 F 0 "SW82" H 11150 7735 50  0000 C CNN
@@ -5574,7 +5563,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW83
+L custom:SW_DIP_x01_flipped SW83
 U 1 1 66411631
 P 12100 7450
 F 0 "SW83" H 12100 7735 50  0000 C CNN
@@ -5585,7 +5574,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW84
+L custom:SW_DIP_x01_flipped SW84
 U 1 1 6641163D
 P 14000 7450
 F 0 "SW84" H 14000 7735 50  0000 C CNN
@@ -5596,7 +5585,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW85
+L custom:SW_DIP_x01_flipped SW85
 U 1 1 66411643
 P 14950 7450
 F 0 "SW85" H 14950 7735 50  0000 C CNN
@@ -5607,7 +5596,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW86
+L custom:SW_DIP_x01_flipped SW86
 U 1 1 66411649
 P 15900 7450
 F 0 "SW86" H 15900 7735 50  0000 C CNN
@@ -5618,7 +5607,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW87
+L custom:SW_DIP_x01_flipped SW87
 U 1 1 6641164F
 P 16850 7450
 F 0 "SW87" H 16850 7735 50  0000 C CNN
@@ -5629,7 +5618,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW88
+L custom:SW_DIP_x01_flipped SW88
 U 1 1 66411655
 P 17800 7450
 F 0 "SW88" H 17800 7735 50  0000 C CNN
@@ -5640,7 +5629,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW89
+L custom:SW_DIP_x01_flipped SW89
 U 1 1 664F539C
 P 1650 8950
 F 0 "SW89" H 1650 9235 50  0000 C CNN
@@ -5651,7 +5640,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW90
+L custom:SW_DIP_x01_flipped SW90
 U 1 1 664F53A2
 P 2600 8950
 F 0 "SW90" H 2600 9235 50  0000 C CNN
@@ -5662,7 +5651,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW91
+L custom:SW_DIP_x01_flipped SW91
 U 1 1 664F53A8
 P 3550 8950
 F 0 "SW91" H 3550 9235 50  0000 C CNN
@@ -5673,7 +5662,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW92
+L custom:SW_DIP_x01_flipped SW92
 U 1 1 664F53BA
 P 6400 8950
 F 0 "SW92" H 6400 9235 50  0000 C CNN
@@ -5684,7 +5673,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW93
+L custom:SW_DIP_x01_flipped SW93
 U 1 1 664F53D2
 P 10200 8950
 F 0 "SW93" H 10200 9235 50  0000 C CNN
@@ -5695,7 +5684,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW94
+L custom:SW_DIP_x01_flipped SW94
 U 1 1 664F53D8
 P 11150 8950
 F 0 "SW94" H 11150 9235 50  0000 C CNN
@@ -5706,7 +5695,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW95
+L custom:SW_DIP_x01_flipped SW95
 U 1 1 664F53DE
 P 12100 8950
 F 0 "SW95" H 12100 9235 50  0000 C CNN
@@ -5717,7 +5706,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW96
+L custom:SW_DIP_x01_flipped SW96
 U 1 1 664F53EA
 P 14000 8950
 F 0 "SW96" H 14000 9235 50  0000 C CNN
@@ -5728,7 +5717,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW97
+L custom:SW_DIP_x01_flipped SW97
 U 1 1 664F53F0
 P 14950 8950
 F 0 "SW97" H 14950 9235 50  0000 C CNN
@@ -5739,7 +5728,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW98
+L custom:SW_DIP_x01_flipped SW98
 U 1 1 664F53FC
 P 16850 8950
 F 0 "SW98" H 16850 9235 50  0000 C CNN
@@ -5749,4 +5738,27 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    16850 8950
 	1    0    0    -1  
 $EndComp
+Text GLabel 850  9400 0    50   Input ~ 0
+LED_IN
+Connection ~ 10500 1450
+Connection ~ 9900 1450
+Connection ~ 1950 1450
+Connection ~ 1350 1450
+Wire Wire Line
+	10500 1450 10600 1450
+Wire Wire Line
+	10400 1450 10500 1450
+Wire Wire Line
+	9900 1450 9800 1450
+Wire Wire Line
+	10000 1450 9900 1450
+Wire Wire Line
+	1950 1450 2050 1450
+Wire Wire Line
+	1850 1450 1950 1450
+Wire Wire Line
+	1350 1450 1250 1450
+Wire Wire Line
+	1450 1450 1350 1450
+NoConn ~ 18100 1900
 $EndSCHEMATC
