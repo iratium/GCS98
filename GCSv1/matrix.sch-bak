@@ -60,11 +60,7 @@ row2
 Text GLabel 1150 4100 0    50   Input ~ 0
 row1
 Wire Wire Line
-	1450 1450 1350 1450
-Wire Wire Line
 	2050 1450 2050 1150
-Wire Wire Line
-	1850 1450 1950 1450
 $Comp
 L Device:D D19
 U 1 1 611769C7
@@ -519,11 +515,7 @@ Connection ~ 8850 2600
 Connection ~ 9250 1600
 Connection ~ 9250 2200
 Wire Wire Line
-	10000 1450 9900 1450
-Wire Wire Line
 	10600 1450 10600 1150
-Wire Wire Line
-	10400 1450 10500 1450
 $Comp
 L Device:D D28
 U 1 1 614D459D
@@ -4350,9 +4342,6 @@ Wire Wire Line
 	1150 7900 1150 8250
 Wire Wire Line
 	18200 5950 18200 7450
-NoConn ~ 18100 1900
-Text GLabel 850  9400 0    50   Input ~ 0
-LED
 $Comp
 L Device:R R1
 U 1 1 63C6A88B
@@ -5629,17 +5618,6 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:SW_DIP_x01_flipped SW88
-U 1 1 66411655
-P 17800 7450
-F 0 "SW88" H 17800 7735 50  0000 C CNN
-F 1 "NUMEN" H 17800 7644 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 17800 7650 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17800 7650 50  0001 C CNN
-	1    17800 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:SW_DIP_x01_flipped SW89
 U 1 1 664F539C
 P 1650 8950
@@ -5749,16 +5727,38 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    16850 8950
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 1450
+$Comp
+L custom:SW_DIP_x01_flipped SW88
+U 1 1 66411655
+P 17800 7450
+F 0 "SW88" H 17800 7735 50  0000 C CNN
+F 1 "NUMEN" H 17800 7644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 17800 7650 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 17800 7650 50  0001 C CNN
+	1    17800 7450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 18100 1900
+Wire Wire Line
+	1450 1450 1350 1450
 Wire Wire Line
 	1350 1450 1250 1450
-Connection ~ 1950 1450
+Wire Wire Line
+	1850 1450 1950 1450
 Wire Wire Line
 	1950 1450 2050 1450
-Connection ~ 9900 1450
+Wire Wire Line
+	10000 1450 9900 1450
 Wire Wire Line
 	9900 1450 9800 1450
-Connection ~ 10500 1450
+Wire Wire Line
+	10400 1450 10500 1450
 Wire Wire Line
 	10500 1450 10600 1450
+Connection ~ 1350 1450
+Connection ~ 1950 1450
+Connection ~ 9900 1450
+Connection ~ 10500 1450
+Text GLabel 850  9400 0    50   Input ~ 0
+LED_IN
 $EndSCHEMATC

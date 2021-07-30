@@ -16,4 +16,5 @@
   (lib (name acheron_MX_SolderMask)(type KiCad)(uri "D:/GitHub Repositories/GCS98/Unified-Daughterboard/KiCad/C3/AcheronLibrary/footprints/acheron_MX_SolderMask.pretty")(options "")(descr ""))
   (lib (name acheron_MXA)(type KiCad)(uri "D:/GitHub Repositories/GCS98/Unified-Daughterboard/KiCad/C3/AcheronLibrary/footprints/acheron_MXA.pretty")(options "")(descr ""))
   (lib (name acheron_MXH)(type KiCad)(uri "D:/GitHub Repositories/GCS98/Unified-Daughterboard/KiCad/C3/AcheronLibrary/footprints/acheron_MXH.pretty")(options "")(descr ""))
+  (lib (name "custom symbols and footprints")(type KiCad)(uri "D:/GitHub Repositories/GCS98/custom symbols and footprints")(options "")(descr ""))
 )
