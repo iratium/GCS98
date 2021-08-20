@@ -121,48 +121,4 @@ Text GLabel 6050 2050 2    50   Input ~ 0
 DP1
 Text GLabel 6050 2150 2    50   Input ~ 0
 DN1
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 6120F989
-P 1100 2650
-F 0 "J?" H 1207 3517 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1207 3426 50  0000 C CNN
-F 2 "" H 1250 2650 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 2650 50  0001 C CNN
-	1    1100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 61212A11
-P 10100 2900
-F 0 "J?" H 9670 2747 50  0000 R CNN
-F 1 "USB_C_Receptacle_USB2.0" H 9670 2838 50  0000 R CNN
-F 2 "" H 10250 2900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10250 2900 50  0001 C CNN
-	1    10100 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:USB_A J?
-U 1 1 612169A9
-P 8950 4300
-F 0 "J?" H 9007 4767 50  0000 C CNN
-F 1 "USB_A" H 9007 4676 50  0000 C CNN
-F 2 "" H 9100 4250 50  0001 C CNN
-F 3 " ~" H 9100 4250 50  0001 C CNN
-	1    8950 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:USB_A J?
-U 1 1 6121D6E4
-P 8900 5450
-F 0 "J?" H 8957 5917 50  0000 C CNN
-F 1 "USB_A" H 8957 5826 50  0000 C CNN
-F 2 "" H 9050 5400 50  0001 C CNN
-F 3 " ~" H 9050 5400 50  0001 C CNN
-	1    8900 5450
-	-1   0    0    1   
-$EndComp
 $EndSCHEMATC
